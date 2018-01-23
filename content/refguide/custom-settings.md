@@ -93,8 +93,7 @@ Before the data copy process starts, the source database will also be brought in
 | SourceDatabaseJdbcUrl | Defines the JDBC URL to use for the source database connection (which overrides the other source database connection settings). This feature is not supported for PostgreSQL databases. |   |
 | SourceDatabaseName | The name of the source database. |   |
 | SourceDatabasePassword | The password for the connection to the source database. |   |
-| SourceDatabaseType | The type of the source database.
-Possible values: HSQLDB, MYSQL, ORACLE, POSTGRESQL, SQLSERVER |   |
+| SourceDatabaseType | The type of the source database. Possible values: HSQLDB, MYSQL, ORACLE, POSTGRESQL, SQLSERVER |
 | SourceDatabaseUseIntegratedSecurity | This setting defines whether integrated security should be used for SQL Server. If true, user name and password will not be used. | false |
 | SourceDatabaseUseSsl | For PostgreSQL databases, defines whether the connection to the source database will be made using SSL. | false |
 | SourceDatabaseUserName | The user name for the connection to the source database. |   |
